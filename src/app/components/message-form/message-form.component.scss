@@ -1,0 +1,33 @@
+.chatcontrol{
+  float: left;
+  width: 100%;
+
+  .chatinput{
+    width: 100%;
+    float: left;
+    border-radius: 0;
+  }
+
+  .sendbtn{
+    width: 40%;
+    float: left;
+    border-radius: 0;
+    text-transform: uppercase;
+    background-color: #583753;
+  }
+
+  .fbbtn{
+    width: 30%;
+    background-color: midnightblue;
+    float: left;
+    border-radius: 0;
+    text-transform: uppercase;
+  }
+  .twitterbtn{
+    width: 30%;
+    background-color: royalblue;
+    float: left;
+    border-radius: 0;
+    text-transform: uppercase;
+  }
+}

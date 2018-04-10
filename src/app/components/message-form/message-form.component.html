@@ -1,0 +1,6 @@
+<div class="chatcontrol">
+  <input type="text" class="form-control chatinput" [(ngModel)]="message.content"/>
+  <button class="btn btn-success fbbtn" (click)="sendMessage()">Facebook</button>
+  <button class="btn btn-success twitterbtn" (click)="sendTwitterMessage()">Twitter</button>
+  <button class="btn btn-success sendbtn" (click)="sendSlackMessage()">Slack</button>
+</div>
